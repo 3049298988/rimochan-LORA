@@ -6,9 +6,15 @@
 总之我训练了1个LORA，可以用在Stable Diffusion上，来生成量产型电子莉沫酱图像！
 
 
+## 下载地址
+
+因为GitHub不让我放超过100MB的文件，所以我把它们放到[release](https://github.com/RimoChan/rimochan-LORA/releases/download/%E5%A5%BD/rimo-lora-pack.zip)里啦。
+
+
 ## txt2img样例
 
 ![1.webp](1.webp)
+
 
 看起来很像莉沫酱！
 
@@ -34,11 +40,13 @@ Negative prompt: (worst quality, low quality:1.4), (realistic, lip, nose, tooth,
 Steps: 50, Sampler: DPM++ 2M SDE Karras, CFG scale: 7, Seed: 1, Size: 512x704, Model hash: cbfba64e66, Model: Counterfeit-V3.0_fp16, VAE hash: ab33ad55c6, VAE: Counterfeit-V2.5.vae.pt, Lora hashes: "rimochan_v2: 135809c2d542", Eta: 0.68, Script: X/Y/Z plot, X Type: Prompt S/R, X Values: "sitting, standing, kneeling", Y Type: Prompt S/R, Y Values: "outdoors, indoors", Version: v1.6.0
 ```
 
+
 ## 换衣服样例
 
 我也测试了1下模型的泛化性，给莉沫酱换上各种衣服试试吧！
 
 ![2.webp](2.webp)
+
 
 看起来都很可爱，好耶！
 
@@ -84,6 +92,20 @@ v2版本的模型加了几张新莉沫酱图，以及我弄了一些画师酱的
 Negative prompt: (worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (abs, muscular, rib:1.0), (blurry, greyscale, monochrome:1.0), text, title, logo, signature
 Steps: 50, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 1, Size: 448x704, Model hash: cbfba64e66, Model: Counterfeit-V3.0_fp16, VAE hash: ab33ad55c6, VAE: Counterfeit-V2.5.vae.pt, Lora hashes: "rimochan_v2: 135809c2d542", Script: X/Y/Z plot, X Type: Prompt S/R, X Values: "0.4,0.6,0.8,1.0", Version: v1.6.0
 ```
+
+## XL-LORA
+
+因为最近我在用XL模型，所以还训练了1个XL模型用的LORA。
+
+看起来也不错，样例图片是这样——
+
+换姿势:
+
+![1xl.webp](1xl.webp)
+
+换衣服:
+
+![2xl.webp](2xl.webp)
 
 ## 结束
 
